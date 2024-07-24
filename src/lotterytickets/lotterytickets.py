@@ -1,5 +1,5 @@
 import random
-import module.numbertochinese as ntoc
+import numberandchinese as ntoc
 '''
 函数名：lotterytickets
 调用形式： a = lotterytickets(user,mubiao,mode)
