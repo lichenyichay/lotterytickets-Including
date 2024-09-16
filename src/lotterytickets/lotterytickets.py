@@ -18,7 +18,6 @@ def lotterytickets(user:str,mubiao:str,mode:int) -> str:
             x = 0
             for i in range(7):
                 if user.split()[i] == mubiao.split()[i]:
-                    print(user.split()[i])
                     x += 1
             return ntoc.No2Cn(8 - x)+"等奖"
         else:
@@ -38,7 +37,6 @@ def lotterytickets(user:str,mubiao:str,mode:int) -> str:
             x = 0
             for i in range(7):
                 if user.split()[i] == mubiao.split()[i]:
-                    print(user.split()[i])
                     x += 1
             return ntoc.No2Cn(8 - x)+"等奖"
         else:
@@ -56,7 +54,6 @@ def lotterytickets(user:str,mubiao:str,mode:int) -> str:
             x = 0
             for i in range(3):
                 if user.split()[i] == mubiao.split()[i]:
-                    print(user.split()[i])
                     x += 1
             return ntoc.No2Cn(4 - x)+"等奖"
         else:
@@ -73,7 +70,6 @@ def lotterytickets(user:str,mubiao:str,mode:int) -> str:
             x = 0
             for i in range(5):
                 if user.split()[i] == mubiao.split()[i]:
-                    print(user.split()[i])
                     x += 1
             return ntoc.No2Cn(6 - x)+"等奖"
         else:
@@ -90,7 +86,6 @@ def lotterytickets(user:str,mubiao:str,mode:int) -> str:
             x = 0
             for i in range(7):
                 if user.split()[i] == mubiao.split()[i]:
-                    print(user.split()[i])
                     x += 1
             return ntoc.No2Cn(8 - x)+"等奖"
         else:
@@ -107,8 +102,7 @@ def lotterytickets(user:str,mubiao:str,mode:int) -> str:
             # 兑奖
             x = 0
             for i in range(7):
-                if user.split()[i] == mubiao.split()[i]:
-                    print(user.split()[i])
+                if user.split()[i] == mubiao.split()[i]: 
                     x += 1
             return ntoc.No2Cn(8 - x)+"等奖"
         else:
