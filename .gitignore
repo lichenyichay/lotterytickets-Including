@@ -166,9 +166,9 @@ cython_debug/
 # C++
 # Visual Studio
 *.sln
-/.vs
+/C++/.vs
 /test
 /x64
 *.vcxproj
-*.vcxproj.users
+*.vcxproj.user
 *.vcxproj.filters
